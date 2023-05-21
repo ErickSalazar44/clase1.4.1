@@ -54,7 +54,7 @@ main {
 }
 
 button {
-  font-family: 'Patrick Hand SC', cursive;
+  font-family:system-ui, 'Segoe UI', Roboto;
   width: 230px;
   height: 60px;
   border-radius: 10px;
