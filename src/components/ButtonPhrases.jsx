@@ -4,11 +4,12 @@ const ButtonPhrases = ({setphraseRandom, setbackgroundRandom,arrBackground}) => 
 
     const handleRandom = () => {
         const newRandomPhrase =randomElementFromArray(phrase);
+        
         setphraseRandom(newRandomPhrase);
         setbackgroundRandom(randomElementFromArray(arrBackground));
     };
     return (
-        <button onClick={handleRandom}>Ver otro</button>
+        <button onClick={handleRandom} className='animation'>Ver otro</button>
     )
 }
 

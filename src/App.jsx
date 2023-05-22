@@ -4,6 +4,7 @@ import phrases from './utils/phrases.json'
 import randomElementFromArray from './utils/randomElementFromArray';
 import ButtonPhrases from './components/ButtonPhrases'
 import PhrasesCard from './components/PhrasesCard'
+import ImageFlotante from './components/ImageFlotante';
 
 const arrBackground = [1, 2, 3, 4, 5, 6, 7, 8];
 function App() {
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <main style={objStyle}>
+      <ImageFlotante/>
       <h1 className='tittle'>GALLETA DE LA FORTUNA</h1>
         <div className='content'>
         <PhrasesCard phraseRandom={phraseRandom}/>
